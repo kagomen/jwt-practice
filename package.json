@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev-1": "nodemon jwt-practice1/server.js",
+    "dev-2": "nodemon jwt-practice2/server.js"
   },
   "keywords": [],
   "author": "",
