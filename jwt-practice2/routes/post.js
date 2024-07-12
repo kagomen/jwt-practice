@@ -9,7 +9,7 @@ router.get('/public', (req, res) => {
 })
 
 // Private Posts
-router.get('/private', (req, res) => {
+router.get('/private', checkJwt, (req, res) => {
   res.json(privatePosts)
 })
 
